@@ -1,0 +1,3 @@
+# generated per box - do not publish your own manifests
+manifests/
+restore.log
