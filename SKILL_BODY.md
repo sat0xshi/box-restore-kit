@@ -7,13 +7,13 @@ and logins stored under `/var` (e.g. Tailscale). It keeps `/workspace` and most 
 directory (`~/.local`, `~/.config`, `~/.ssh`, CLI logins stored in home).
 
 The kit (`snapshot.sh` + `restore.sh`) records what was added on top of the base image and
-reinstalls only what is missing. Repo: `https://github.com/<OWNER>/box-restore-kit`
+reinstalls only what is missing. Repo: `https://github.com/sat0xshi/box-restore-kit`
 Location on the box: `KIT=/workspace/box-restore` (inside `/workspace`, so it survives).
 
 ## 1. Get the kit (only if `$KIT/snapshot.sh` is missing)
 ```bash
-git clone https://github.com/<OWNER>/box-restore-kit /workspace/box-restore
-# no git: mkdir -p /workspace/box-restore && cd /workspace/box-restore && for f in snapshot.sh restore.sh; do curl -fsSLO https://raw.githubusercontent.com/<OWNER>/box-restore-kit/main/$f; done
+git clone https://github.com/sat0xshi/box-restore-kit /workspace/box-restore
+# no git: mkdir -p /workspace/box-restore && cd /workspace/box-restore && for f in snapshot.sh restore.sh; do curl -fsSLO https://raw.githubusercontent.com/sat0xshi/box-restore-kit/main/$f; done
 ```
 If the folder already exists, do not re-clone or overwrite it: it holds this box's
 `manifests/` and local edits to `restore.sh`. To update the kit, `git -C /workspace/box-restore

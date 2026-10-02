@@ -36,11 +36,11 @@ The kit itself lives in `/workspace`, so it survives too.
 
 ### Install (one line)
 ```bash
-git clone https://github.com/<OWNER>/box-restore-kit /workspace/box-restore && bash /workspace/box-restore/snapshot.sh
+git clone https://github.com/sat0xshi/box-restore-kit /workspace/box-restore && bash /workspace/box-restore/snapshot.sh
 ```
 Without git (raw files):
 ```bash
-mkdir -p /workspace/box-restore && cd /workspace/box-restore && for f in snapshot.sh restore.sh; do curl -fsSLO https://raw.githubusercontent.com/<OWNER>/box-restore-kit/main/$f; done && bash snapshot.sh
+mkdir -p /workspace/box-restore && cd /workspace/box-restore && for f in snapshot.sh restore.sh; do curl -fsSLO https://raw.githubusercontent.com/sat0xshi/box-restore-kit/main/$f; done && bash snapshot.sh
 ```
 Any folder under `/workspace` works; the commands below assume `/workspace/box-restore/`. Manifests are written to `manifests/` inside it (git-ignored — never publish them).
 
@@ -126,11 +126,11 @@ If your shell sets `NPM_CONFIG_PREFIX` (e.g. to `~/.local`), `nvm use` refuses t
 
 ### 導入（1 行）
 ```bash
-git clone https://github.com/<OWNER>/box-restore-kit /workspace/box-restore && bash /workspace/box-restore/snapshot.sh
+git clone https://github.com/sat0xshi/box-restore-kit /workspace/box-restore && bash /workspace/box-restore/snapshot.sh
 ```
 git を使わない場合（raw ファイル）:
 ```bash
-mkdir -p /workspace/box-restore && cd /workspace/box-restore && for f in snapshot.sh restore.sh; do curl -fsSLO https://raw.githubusercontent.com/<OWNER>/box-restore-kit/main/$f; done && bash snapshot.sh
+mkdir -p /workspace/box-restore && cd /workspace/box-restore && for f in snapshot.sh restore.sh; do curl -fsSLO https://raw.githubusercontent.com/sat0xshi/box-restore-kit/main/$f; done && bash snapshot.sh
 ```
 `/workspace` の下ならどこでも動きます（以下は `/workspace/box-restore/` 前提）。記録は中の `manifests/` に保存されます（.gitignore 済み。公開しないこと）。
 

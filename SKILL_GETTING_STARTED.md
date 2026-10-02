@@ -5,8 +5,8 @@ does not exist yet).
 
 1. Fetch the kit into `/workspace/box-restore` (skip if it already exists - never overwrite it):
    ```bash
-   git clone https://github.com/<OWNER>/box-restore-kit /workspace/box-restore
-   # no git: mkdir -p /workspace/box-restore && cd /workspace/box-restore && for f in snapshot.sh restore.sh; do curl -fsSLO https://raw.githubusercontent.com/<OWNER>/box-restore-kit/main/$f; done
+   git clone https://github.com/sat0xshi/box-restore-kit /workspace/box-restore
+   # no git: mkdir -p /workspace/box-restore && cd /workspace/box-restore && for f in snapshot.sh restore.sh; do curl -fsSLO https://raw.githubusercontent.com/sat0xshi/box-restore-kit/main/$f; done
    ```
 2. Take the first snapshot and check it prints `snapshot OK`:
    ```bash
