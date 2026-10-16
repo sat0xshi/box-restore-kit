@@ -1,0 +1,11 @@
+{
+  "name": "box-restore-kit",
+  "version": "1.0.0",
+  "description": "Snapshot what you installed on a shared Linux agent box and restore only what is missing after a box update.",
+  "author": {
+    "name": "meta-spect",
+    "url": "https://meta-spect.com"
+  },
+  "keywords": ["box", "agent", "snapshot", "restore", "linux", "devops", "skills"],
+  "logo": "logo.svg"
+}

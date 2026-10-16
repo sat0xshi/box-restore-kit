@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "box-restore-kit",
+  "version": "1.0.0",
+  "description": "Snapshot what you installed on a shared Linux agent box and restore only what is missing after a box update.",
+  "author": {
+    "name": "meta-spect",
+    "url": "https://meta-spect.com"
+  },
+  "homepage": "https://meta-spect.com",
+  "repository": "https://github.com/sat0xshi/box-restore-kit",
+  "license": "MIT",
+  "keywords": ["box", "agent", "snapshot", "restore", "linux", "devops", "skills"]
+}
