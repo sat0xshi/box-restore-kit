@@ -1,0 +1,13 @@
+{
+  "name": "box-restore-kit",
+  "owner": {
+    "name": "meta-spect"
+  },
+  "plugins": [
+    {
+      "name": "box-restore-kit",
+      "source": "./",
+      "description": "Snapshot what you installed on a shared Linux agent box and restore only what is missing after a box update."
+    }
+  ]
+}
